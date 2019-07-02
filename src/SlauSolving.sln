@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearAlgebra", "LinearAlgebra\LinearAlgebra.csproj", "{437C3EEE-9090-452A-BDAD-EC4FB6B4FABD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{42029D40-A76D-460C-8734-81971975474A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearAlgebraTests", "Tests\LinearAlgebraTests\LinearAlgebraTests.csproj", "{05C80B6F-A7BB-4441-BD0C-A692756E2182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSlauSolving", "ConsoleSlauSolving\ConsoleSlauSolving.csproj", "{D3AFA93F-E585-4206-BCD8-4B106A48CB30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlauSolving", "SlauSolving\SlauSolving.csproj", "{19C0CE5D-22A4-40F9-98A9-E718A8B6341D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlauSolvingTests", "Tests\SlauSolvingTests\SlauSolvingTests.csproj", "{B91BF07E-E15A-4C55-9F59-D13CFE059F64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{437C3EEE-9090-452A-BDAD-EC4FB6B4FABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437C3EEE-9090-452A-BDAD-EC4FB6B4FABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437C3EEE-9090-452A-BDAD-EC4FB6B4FABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437C3EEE-9090-452A-BDAD-EC4FB6B4FABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C80B6F-A7BB-4441-BD0C-A692756E2182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C80B6F-A7BB-4441-BD0C-A692756E2182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C80B6F-A7BB-4441-BD0C-A692756E2182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C80B6F-A7BB-4441-BD0C-A692756E2182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3AFA93F-E585-4206-BCD8-4B106A48CB30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3AFA93F-E585-4206-BCD8-4B106A48CB30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3AFA93F-E585-4206-BCD8-4B106A48CB30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3AFA93F-E585-4206-BCD8-4B106A48CB30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C0CE5D-22A4-40F9-98A9-E718A8B6341D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C0CE5D-22A4-40F9-98A9-E718A8B6341D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C0CE5D-22A4-40F9-98A9-E718A8B6341D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C0CE5D-22A4-40F9-98A9-E718A8B6341D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91BF07E-E15A-4C55-9F59-D13CFE059F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91BF07E-E15A-4C55-9F59-D13CFE059F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91BF07E-E15A-4C55-9F59-D13CFE059F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91BF07E-E15A-4C55-9F59-D13CFE059F64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05C80B6F-A7BB-4441-BD0C-A692756E2182} = {42029D40-A76D-460C-8734-81971975474A}
+		{B91BF07E-E15A-4C55-9F59-D13CFE059F64} = {42029D40-A76D-460C-8734-81971975474A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DAFF0B1-313E-4A2F-9E11-54B8FE3FA42F}
+	EndGlobalSection
+EndGlobal
